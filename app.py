@@ -7,7 +7,6 @@ from tensorflow.keras.losses import BinaryCrossentropy, CategoricalCrossentropy
 from tensorflow.keras.metrics import Accuracy, BinaryAccuracy, TruePositives, FalsePositives, TrueNegatives,FalseNegatives, Precision, Recall, AUC 
 from tensorflow.keras.optimizers import RMSprop, Adam
 import numpy as np
-from pathlib import Path
 import os
 import cv2
 
@@ -45,7 +44,7 @@ def processing(testing_image_path):
     img = load_img(testing_image_path, 
             target_size=(IMG_SIZE, IMG_SIZE))
      
-    input_data = tf.constant(img)  # Your image data with shape (224, 224, 3)
+    input_data = tf.constant(img)  
     input_data = tf.expand_dims(img, 0)
     try:
         prediction = loaded_model.predict(np.array(input_data))
@@ -62,7 +61,7 @@ def generate_result(prediction):
         st.write("""Model predicts it as an image of a Cat""")
         
         
-# ----------------------- Predict Button Clicked ------------------
+# ----------------------- Predict Button ------------------
 if submit:
     try: 
         save_img("temp_dir/test_image.jpg", img_array)
