@@ -70,14 +70,13 @@ project-root/
 
 The user interface for this project is created using Streamlit, making it easy to interact with the image classification model. Users can upload their own images and get real-time predictions.
 
-![Web Interface Screenshot](![image](https://github.com/aditya345-coder/Cat_Or_Dog_Classification/assets/92220550/7fb30c4a-dcf7-4faf-b863-5a503888b2b8)
-)
+![screenshot](https://github.com/aditya345-coder/Cat_Or_Dog_Classification/assets/92220550/796a3b22-8942-45ed-b1c4-3a4f39d7a6fb)
 
 ## Demo
 
 You can watch the project in action by viewing the demo video or GIF below:
 
-![Demo Video/GIF](https://github.com/aditya345-coder/Cat_Or_Dog_Classification/assets/92220550/8167f604-76dc-4316-95f7-cb65f2178314)
+https://github.com/aditya345-coder/Cat_Or_Dog_Classification/assets/92220550/cf97ef45-9d8b-418e-aba4-b726c5381253
 
 
 
