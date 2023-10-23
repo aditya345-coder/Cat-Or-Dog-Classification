@@ -1,6 +1,8 @@
 # Car or Dog Image Classification
 
-![Project Demo Video/GIF]((https://github.com/aditya345-coder/Cat_Or_Dog_Classification/assets/92220550/07606f14-a59a-480e-9eba-b82519be3e0f))
+![Project Demo Video/GIF](())
+
+https://github.com/aditya345-coder/Cat_Or_Dog_Classification/assets/92220550/07606f14-a59a-480e-9eba-b82519be3e0f
 
 ## Overview
 
